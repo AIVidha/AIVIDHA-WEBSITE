@@ -3,6 +3,7 @@
 import BackgroundPaths from "../components/kokonutui/background-paths"
 import NavHeader from "@/components/ui/nav-header"
 import AboutSection from "@/components/sections/about-section"
+import ProductsSection from "@/components/sections/products-section"
 import CoursesSection from "@/components/sections/courses-section"
 import ProjectsOrbitalSection from "@/components/sections/projects-orbital-section"
 import TestimonialsSection from "@/components/sections/testimonials-section"
@@ -25,6 +26,7 @@ export default function SyntheticV0PageForDeployment() {
         
         <div className="bg-transparent">
           <AboutSection />
+          <ProductsSection />
           <CoursesSection />
           <ProjectsOrbitalSection />
           <TestimonialsSection />

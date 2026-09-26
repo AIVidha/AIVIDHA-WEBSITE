@@ -8,12 +8,13 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const links = [
-  { name: "Home", href: "#" },
-  { name: "About", href: "#about" },
-  { name: "Courses", href: "#courses" },
-  { name: "Projects", href: "#projects" },
-  { name: "Reviews", href: "#testimonials" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/#" },
+  { name: "About", href: "/#about" },
+  { name: "Products", href: "/#products" },
+  { name: "Courses", href: "/#courses" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Reviews", href: "/#testimonials" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 function NavHeader() {
